@@ -6,7 +6,7 @@ import { UserAuthService } from './user-auth.service';
   providedIn: 'root',
 })
 export class UserService {
-  PATH_OF_API = 'https://ecommweb.herokuapp.com/';
+  PATH_OF_API = 'https://ecommweb.herokuapp.com';
 
   requestHeader = new HttpHeaders({ 'No-Auth': 'True' });
   constructor(
