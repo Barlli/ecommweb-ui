@@ -120,7 +120,7 @@ export class BuyProductComponent implements OnInit {
       key: response.key,
       amount: response.amount,
       currency: response.currency,
-      name: 'Learn programming yourself',
+      name: 'Payment',
       description: 'Payment of online shopping',
       image: 'https://cdn.pixabay.com/photo/2023/01/22/13/46/swans-7736415_640.jpg',
       handler: (response: any) => {
